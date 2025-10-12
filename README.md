@@ -33,5 +33,5 @@ Sistema de delivery desenvolvido com Spring Boot e Java 21.
 - Profile: development
 
 ## 👨‍💻 Desenvolvedor
-[Evandro Santos](https://github.com/vandersant7) -   TI 03365
+[Evandro Santos](https://github.com/vandersant7) -   TI 03365 Arquitetura de Sistemas 19h00 às 22h20 Novo Emprego
 Desenvolvido com JDK 21 e Spring Boot 3.5.6
