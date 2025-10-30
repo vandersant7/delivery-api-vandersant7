@@ -1,25 +1,14 @@
+# --- Documentação e ajuda ---
 HELP.md
+
+# --- Build Maven ---
 target/
 .mvn/wrapper/maven-wrapper.jar
+# Permite targets dentro de src/ (raro, mas útil em exemplos didáticos)
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
+# --- Build Gradle / NetBeans ---
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,5 +18,30 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# --- Spring Tool Suite (STS) ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- VS Code ---
 .vscode/
+
+# --- Logs e temporários ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
